@@ -13,7 +13,7 @@
 
     
 
-    <main>
+    <main class="main">
     
             <header class="top-header"> 
                 <h1 class="h1">Kamil Leon Pawlicki </h1>
@@ -27,7 +27,7 @@
 
             </header>
             <section class="about">
-                <div>
+                <div class="flex1">
                     <article class="article">
                         <h3 class="article__title">KRÓTKO O MNIE</h3>
                         <p class="article__paragraph">Jestem samo-uczącym się początkującym programistą na etapie przebranżowienia. Żyłem 4 lata w Nottingham/Anglia prowadząc własną firmę budowlaną. 
@@ -40,29 +40,36 @@
                     </div>
                     
                 
-                <div class="photo"> ZDJĘCIE</div>
+                <div class="flex1">
+                    <img class="picture" src="nerd hero.jpg">
+                </div>
             
             </section>
 
 
             <section class="skills">
                 <div>
-                    <h3 class="article__title"> UMIEJĘTNOSCI:</h3>
+                    
                     <article class="article">
                         
-                        <h3 class="article__title">Twarde</h3>
-                        <p class="article__paragraph"> 
-                            <ul> <li>HTML</li>
+                        <h3 class="article__title article__title--skills">Umiejętności Twarde</h3>
+                        <p class="article__paragraph article__paragraph--skills"> 
+                            <ul class="article__ul"> <li>HTML</li>
                                 <li>CSS i SCSS/SASS</li>
-                                <li>Java-Script (konsola/funkcje/i więcej)</li>
+                                <li>Java-Script</li>
                                 
                                 <li>Terminal</li>
                                 <li>GitHub</li>
                             </ul>
                         </p>
-                        <p class="article__paragraph--tools"> 
-                            ZNANE  NARZĘDZIA
-                            <ul> <li>Codepen.io</li>
+                        </article>
+                        </div>
+                        <div>
+                            <article class="article">
+                                <h3 class="article__title article__title--skills">NARZĘDZIA</h3>
+                        <p class="article__paragraph article__paragraph--skills"> 
+                            
+                            <ul class="article__ul"> <li>Codepen.io</li>
                                 <li>Trello</li>
                                 <li>Figma</li>
                                 
@@ -74,11 +81,13 @@
                             </ul>
                         </p>
                     </article>
+                    </div>
+                    <div>
 
                     <article class="article">
-                        <h3 class="article__title">Miękkie</h3>
-                        <p class="article__paragraph"> 
-                            <ul> <li>Dobry poziom Angielskiego</li>
+                        <h3 class="article__title article__title--skills">Umiejętności Miękkie</h3>
+                        <p class="article__paragraph article__paragraph--skills"> 
+                            <ul class="article__ul"> <li>Dobry poziom Angielskiego</li>
                                 <li>Dogadywanie się z ludźmi</li>
                                 <li>Słowność</li>
                                 <li>Zaangażowanie</li>
@@ -90,14 +99,16 @@
             </section>
 
             <section class="experience">
-                <div >
+                <div>
                     <article class="article">
                         <h3 class="article__title">DOŚWIADCZENIE</h3>
                         <p class="article__paragraph">Jako programista dopiero zaczynam.
                             Mam za sobą jedynie kilka prostych prywatnych projektów, 
-                            między innymi tą interaktywną stronę prezentującą 
-                            (różnie się zachowuje w różnych rozdzielczościach oraz zawiera J-S ukryty w konsoli), 
-                            oraz resztę znajdującą się na GitHubie w linkach.
+                            między innymi tą interaktywną stronę prezentacyjną
+                            (strona różnie się zachowuje w różnych rozdzielczościach, 
+                            posiada specjalne style po kliknięciu w element oraz 
+                            zawiera J-S ukryty w konsoli - który może się okazać pomocny po kliknięciu F12), 
+                            kilka innych projektów znajdujących się na GitHubie w linkach.
 
                         </p>
                     </article>
@@ -111,7 +122,7 @@
                         <p class="grid__paragraph3">kursy Front-End</p>
                         <p class="grid__paragraph4">książki</p>
                         <p class="grid__paragraph5">praca z kodem</p>
-                        <p class="grid__paragraph6">zabawa stylowaniem</p>
+                        <p class="grid__paragraph6">zabawa z kodem</p>
                     </article>
                 </div>
                 </section>
@@ -141,7 +152,10 @@
                                 tel : (+48) 782-188-757
                             </p>
                             <p class="article__paragraph--github"> 
-                                GitHub
+                                GitHub :
+                            </p>
+                            <p class="article__paragraph--linkedin">
+                                Linkedin
                             </p>
                         </article>
                         </div>
