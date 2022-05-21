@@ -63,14 +63,26 @@ nav a {
 .article {
   padding: 8px;
 }
+.article:hover {
+  color: hotpink;
 
+}
 
 .article__title {
   text-decoration: underline;
   color: black;
 }
-.article__title--skills {
+.article__title::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: tomato;
+  border-radius: 50%;
   
+}
+.article__title--grid {
+  color: darkred;
 }
 
 .article__paragraph {
@@ -240,12 +252,7 @@ background: radial-gradient(circle,
 .grid {
   text-align: center;
 }
-   .grid__title {
-   color: darkred;
    
-   
-   text-decoration: underline;
-   }
    .grid__article {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -353,7 +360,9 @@ background: radial-gradient(circle, rgba(122,235,242,1) 4%,
   text-decoration: underline;
   text-align: center;
 }
+.article__paragraph--mail {
 
+}
 .footer {
   background-color: lightgrey;
 }
