@@ -225,19 +225,7 @@ background: radial-gradient(circle,
  rgba(104,219,152,1) 16%,
   rgba(87,164,235,1) 90%);
 }
-@media (max-width:768px) {
-  .experience {
-    display: block;
-    
-    overflow: auto;
-    margin: 2%;
-    border: 1px solid;
-    background: rgb(104,219,152);
-    background: radial-gradient(circle,
-     rgba(104,219,152,1) 16%,
-      rgba(87,164,235,1) 90%);
-}
-}
+
 @media (min-width:768px) {
   .experience {
     
@@ -262,34 +250,81 @@ background: radial-gradient(circle,
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 0%;
+    margin-bottom: 8px;
+    
   }
-   .grid__paragraph1 {
-     text-align: center;
+  @media (min-width: 1024px) {
+    .grid__article {
+      margin: 2%;
+      margin-left: 18%;
+      grid-template-columns: 40% 40%;
+      
+    }
+  }
+  .grid__paragraph {
+    text-align: center;
+    margin: 2px;
+  }
+  @media (min-width: 425px) {
+    .grid__paragraph {
+      text-align: center;
+      margin: 2px;
+      min-width: 200px;
+    }
+  }
+  @media (min-width: 768px) {
+    .grid__paragraph {
+      text-align: center;
+      margin: 6px;
+      min-width: 300px;
+      max-width: 450px;
+      
+    }
+  }
+  @media (min-width: 1024px) {
+    .grid__paragraph {
+      text-align: center;
+      margin: 6px;
+      width: 300px;
+      height: 100px;
+      border: 2px solid black;
+      border-radius: 50%;
+      position: sticky;
+      padding: 30px;
+      
+      
+      
+    }
+  }
+   .grid__paragraph--1 {
+     
      background-color: lightgray;
      color: darkslategray;
+     
    }
-   .grid__paragraph2 {
-     text-align: center;
+   .grid__paragraph--2 {
+     
      background-color: lightgreen;
-     color: darkgreen;
+     color: rgb(9, 54, 9);
    }
-   .grid__paragraph3 {
-     text-align: center;
+   .grid__paragraph--3 {
+     
      background-color: lightsalmon;
      color: rgb(54, 37, 16);
    }
-   .grid__paragraph4 {
-     text-align: center;
+   .grid__paragraph--4 {
+     
      background-color: rgb(241, 195, 202);
      color: red;
    }
-   .grid__paragraph5 {
-     text-align: center;
+   .grid__paragraph--5 {
+    
      background-color: lightskyblue;
      color: purple;
    }
-   .grid__paragraph6 {
-     text-align: center;
+   .grid__paragraph--6 {
+     
      background-color: lightyellow;
      color: darkblue;
    }
@@ -319,4 +354,6 @@ background: radial-gradient(circle, rgba(122,235,242,1) 4%,
   text-align: center;
 }
 
-
+.footer {
+  background-color: lightgrey;
+}
