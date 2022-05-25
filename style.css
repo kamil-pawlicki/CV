@@ -64,7 +64,7 @@ nav a {
   padding: 8px;
 }
 .article:hover {
-  color: hotpink;
+  color: rgb(214, 11, 11);
 
 }
 
@@ -238,16 +238,7 @@ background: radial-gradient(circle,
   rgba(87,164,235,1) 90%);
 }
 
-@media (min-width:768px) {
-  .experience {
-    
-    
-    
 
-  
-  }
-  
-}
 
 .grid {
   text-align: center;
@@ -360,9 +351,18 @@ background: radial-gradient(circle, rgba(122,235,242,1) 4%,
   text-decoration: underline;
   text-align: center;
 }
-.article__paragraph--mail {
-
+.mail--js {
+border: 1px solid black;
+}
+.phone--js {
+  border: 1px solid black;
 }
 .footer {
   background-color: lightgrey;
+}
+
+.action--js {
+  border: 2px solid black;
+  padding: 4px;
+  margin-left: 60px;
 }
