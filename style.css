@@ -26,7 +26,6 @@ html {
   text-align: center;
 }
 
-
 .navigation {
   padding: 10px;
   position: fixed;
@@ -60,10 +59,8 @@ nav a {
   margin: auto;
 }
 .flex1 {
-  
 }
 .flex2 {
-
 }
 
 .article {
@@ -89,7 +86,6 @@ nav a {
   color: darkred;
 }
 .article__title--skills {
-  
 }
 
 .article__paragraph {
@@ -148,7 +144,6 @@ nav a {
     left: 35%;
   }
 }
-
 
 .picture {
   max-width: 300px;
