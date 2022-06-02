@@ -6,17 +6,18 @@ html {
 *:after {
   box-sizing: inherit; }
 
+.body {
+  background-image: url(geometric.jpg);
+  text-align: center; }
+
 .main {
   margin: auto;
   margin-top: 70px;
   box-sizing: border-box;
   min-width: auto;
-  max-width: 1024px; }
-
-.body {
-  background: #7aebf2;
-  background: linear-gradient(180deg, #7aebf2 9%, #6ac4fc 28%, #00d4ff 64%, #3b5ee3 96%);
-  text-align: center; }
+  max-width: 1024px;
+  filter: alpha(Opacity=90);
+  opacity: 0.8; }
 
 .navigation {
   padding: 10px;
@@ -42,7 +43,7 @@ nav a {
   text-decoration: underline; }
 
 .top-header {
-  color: #393088;
+  color: black;
   margin: auto; }
 
 .article {

@@ -7,25 +7,22 @@ html {
 *:after {
   box-sizing: inherit;
 }
+.body {
+  background-image: url(geometric.jpg);
+  text-align: center;
+}
+
 .main {
   margin: auto;
   margin-top: 70px;
   box-sizing: border-box;
   min-width: auto;
   max-width: 1024px;
+  filter: alpha(Opacity=90);
+  opacity: 0.8;
+  
 }
 
-.body {
-  background: rgb(122, 235, 242);
-  background: linear-gradient(
-    180deg,
-    rgba(122, 235, 242, 1) 9%,
-    rgba(106, 196, 252, 1) 28%,
-    rgba(0, 212, 255, 1) 64%,
-    rgba(59, 94, 227, 1) 96%
-  );
-  text-align: center;
-}
 
 .navigation {
   padding: 10px;
@@ -56,7 +53,7 @@ nav a {
 }
 
 .top-header {
-  color: rgb(57, 48, 136);
+  color: rgb(0, 0, 0);
 
   margin: auto;
 }
