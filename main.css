@@ -17,7 +17,7 @@ html {
   min-width: auto;
   max-width: 1024px;
   filter: alpha(Opacity=90);
-  opacity: 0.8; }
+  opacity: 0.7; }
 
 .navigation {
   padding: 10px;
@@ -52,7 +52,9 @@ nav a {
     color: #d60b0b; }
   .article__title {
     text-decoration: underline;
-    color: black; }
+    color: black;
+    
+    }
     .article__title::before {
       content: "";
       display: inline-block;
@@ -63,7 +65,8 @@ nav a {
     .article__title--grid {
       color: darkred; }
   .article__paragraph {
-    padding: 8px; }
+    padding: 8px;
+     }
     .article__paragraph--skills {
       text-align: center;
       margin: 0%;

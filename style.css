@@ -73,6 +73,7 @@ nav a {
 .article__title {
   text-decoration: underline;
   color: black;
+  opacity: 1;
 }
 .article__title::before {
   content: "";
@@ -90,6 +91,7 @@ nav a {
 
 .article__paragraph {
   padding: 8px;
+  opacity: 1;
 }
 .article__paragraph--skills {
   text-align: center;
@@ -111,7 +113,6 @@ nav a {
 @media (max-width: 375px) {
   .article__ul {
     text-align: left;
-
     width: 70%;
     position: sticky;
     left: 20%;
